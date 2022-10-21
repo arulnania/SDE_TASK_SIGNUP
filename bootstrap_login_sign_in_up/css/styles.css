@@ -1,0 +1,44 @@
+body{
+    background-color: #4c77cf;
+    background-image: linear-gradient(to bottom right, #4c77cf,#46a7a8);
+    color: #070745;
+}
+.box{
+    margin: 8rem auto;
+    width: fit-content;
+}
+.container{
+    text-align: center;
+    align-items: center;
+    background-color: rgba(229,229,229, 0.1);
+    
+    padding: 3rem;
+}
+.container *{
+    margin: 1rem;
+}
+.form{
+    margin: 3rem 0rem 1rem 0rem;
+}
+.form-check{
+    width: fit-content;
+    margin: 0 auto  0 auto;
+}
+.form-check-input , .form-check-label {
+    margin: 0px;
+}
+.check *{
+    margin: 0px;
+}
+.btn, .btn:hover{
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+    background-color: #4c77cf ;
+    height: 1rem;
+    width: fit-content;
+    padding: 1rem;
+    border-radius: 5rem;
+    color: white;
+    /* font-size: large; */
+}
